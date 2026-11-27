@@ -16,6 +16,8 @@ public class InventoryComponent implements IComponent {
 	// TODO: add the fields:
 	//       - an Inventory, initialized to a new NaiveInventory
 	//       - a float maxWeight, initialized to INITIAL_MAX_WEIGHT
+	private Inventory inventory = new NaiveInventory();
+	private float maxWeight = INITIAL_MAX_WEIGHT;
 
 	public Inventory getInventory() {
 		// TODO: implement
