@@ -32,6 +32,6 @@ public class InventoryComponent implements IComponent {
 	}
 
 	public void setMaxWeight(float maxWeight) {
-		this.maxWeight = maxWeight
+		this.maxWeight = maxWeight;
 	}
 }
